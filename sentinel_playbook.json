@@ -1,0 +1,19 @@
+{
+  "name": "IOC_Enrichment_Playbook",
+  "trigger": "Sentinel alert created",
+  "actions": [
+    {
+      "type": "VirusTotalLookup",
+      "input": "Alert.IP",
+      "apiKey": "<YOUR_VT_API_KEY>"
+    },
+    {
+      "type": "PostToTeams",
+      "message": "IOC Alert for IP {{Alert.IP}}"
+    },
+    {
+      "type": "CreateTheHiveCase",
+      "title": "Auto Case - Malicious IP"
+    }
+  ]
+}
