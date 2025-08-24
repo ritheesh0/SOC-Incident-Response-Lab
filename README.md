@@ -36,7 +36,7 @@ SOC-Incident-Response-Lab/
 ---
 
 ### 2. Attack Scenario (PCAP Analysis)  
-**File:** [`attack_scenario.pcap`](./Attack_Analysis/attack_scenario.pcap)  
+**File:** https://github.com/ritheesh0/SOC-Incident-Response-Lab/blob/main/attack_scenario.pcap
 
 - Opened in **Wireshark** for packet inspection.  
 - Observations:  
@@ -48,6 +48,7 @@ SOC-Incident-Response-Lab/
 - Repeated `TCP SYN` packets on port 22 (SSH).  
 - Failed authentication messages.  
 - Suspicious external IP connections not typical for normal traffic.  
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b1c46fdb-1a6f-4a5a-8644-a049fd2a9bda" />
 
 ---
 
@@ -64,6 +65,8 @@ Analyzed using Excel/Splunk queries.
 **Key Finding:** Confirms brute-force activity from PCAP + shows escalation after successful access.  
 
 ---
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d2f1eedb-24c2-4e91-8c72-65f51f89903b" />
+
 
 ### 4. IOC Analysis (Threat Intelligence)  
 **File:** [`ioc_list.csv`](./IOC_Analysis/ioc_list.csv)  
@@ -75,6 +78,7 @@ Analyzed using Excel/Splunk queries.
 **Action:**  
 - Block malicious IP at firewall.  
 - Monitor for further connections from similar ranges.  
+<img width="1029" height="484" alt="image" src="https://github.com/user-attachments/assets/c9a770dc-3332-4c56-a5bc-528c47e881b6" />
 
 ---
 
