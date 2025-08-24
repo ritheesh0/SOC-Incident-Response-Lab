@@ -21,7 +21,7 @@ SOC-Incident-Response-Lab/
 ## 🔎 Analysis  
 
 ### 1. Vulnerability Assessment (Nessus)  
-**File:** [`nessus_scan_results.html`](./Nessus_Report/nessus_scan_results.html)  
+**File:** https://github.com/ritheesh0/SOC-Incident-Response-Lab/blob/main/nessus_scan_results.html
 
 | Severity   | Vulnerability              | CVE            | Host            | Port    | CVSS | Description |
 |------------|----------------------------|----------------|-----------------|---------|------|-------------|
