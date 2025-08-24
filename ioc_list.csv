@@ -1,5 +1,0 @@
-IoC Type,Value,Source
-IP Address,203.0.113.45,C2 Server
-Domain,evil-update.com,Malware download site
-MD5 Hash,44d88612fea8a8f36de82e1278abb02f,EICAR Test File
-URL,http://testmyids.com,IDS Test Payload
