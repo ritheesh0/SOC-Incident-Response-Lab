@@ -83,7 +83,7 @@ Analyzed using Excel/Splunk queries.
 ---
 
 ### 5. Incident Documentation (TheHive Case)  
-**File:** [`hive_case_template.json`](./Incident_Response/hive_case_template.json)  
+**File:** https://github.com/ritheesh0/SOC-Incident-Response-Lab/blob/main/hive_case_template.json
 
 - Imported into **TheHive** for case management.  
 - Case includes:  
