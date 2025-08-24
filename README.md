@@ -53,7 +53,7 @@ SOC-Incident-Response-Lab/
 ---
 
 ### 3. Windows Event Log Analysis  
-**File:** [`windows_event_logs.csv`](./Windows_Logs/windows_event_logs.csv)  
+**File:** https://github.com/ritheesh0/SOC-Incident-Response-Lab/blob/main/windows_event_logs.csv
 
 Analyzed using Excel/Splunk queries.  
 
