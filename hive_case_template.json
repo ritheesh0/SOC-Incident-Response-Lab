@@ -1,0 +1,28 @@
+{
+  "title": "Suspicious Network Activity - Possible Compromise",
+  "description": "Multiple failed SSH logins, malicious domain contact, and unpatched services.",
+  "severity": 3,
+  "tags": [
+    "SSH-Bruteforce",
+    "C2-Communication",
+    "Vulnerability-Exploitation"
+  ],
+  "tasks": [
+    {
+      "title": "Analyze PCAP",
+      "status": "InProgress"
+    },
+    {
+      "title": "Hunt logs in Splunk",
+      "status": "Waiting"
+    },
+    {
+      "title": "Perform Nessus scan",
+      "status": "Waiting"
+    },
+    {
+      "title": "Update incident report",
+      "status": "Waiting"
+    }
+  ]
+}
