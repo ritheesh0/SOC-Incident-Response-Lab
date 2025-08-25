@@ -109,16 +109,16 @@ This ensures proper SOC documentation and knowledge sharing.
 
 ---
 
-## 📊 Conclusion  
+##  Conclusion  
 
 This lab demonstrates a **complete SOC workflow**:  
 
-1. ✅ Detected vulnerabilities with **Nessus**  
-2. ✅ Identified brute-force + C2 via **PCAP (Wireshark)**  
-3. ✅ Confirmed attack with **Windows Event Logs**  
-4. ✅ Correlated data using **IOC threat intel**  
-5. ✅ Documented in **TheHive** for case management  
-6. ✅ Automated response with **Sentinel Playbook**  
+1. Detected vulnerabilities with **Nessus**  
+2. Identified brute-force + C2 via **PCAP (Wireshark)**  
+3. Confirmed attack with **Windows Event Logs**  
+4. Correlated data using **IOC threat intel**  
+5. Documented in **TheHive** for case management  
+6. Automated response with **Sentinel Playbook**  
 
 **Skills Practiced:**  
 - Vulnerability Assessment  
