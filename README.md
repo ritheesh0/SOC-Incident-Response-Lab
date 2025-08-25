@@ -40,9 +40,9 @@ SOC-Incident-Response-Lab/
 
 - Opened in **Wireshark** for packet inspection.  
 - Observations:  
-  - 📌 Multiple failed login attempts (brute-force attack on SSH).  
-  - 📌 Unusual outbound traffic patterns → possible C2 communication.  
-  - 📌 Suspicious source IP matches threat intelligence (see IOC section).  
+  - Multiple failed login attempts (brute-force attack on SSH).  
+  - Unusual outbound traffic patterns → possible C2 communication.  
+  - Suspicious source IP matches threat intelligence (see IOC section).  
 
 **Evidence from Wireshark:**  
 - Repeated `TCP SYN` packets on port 22 (SSH).  
